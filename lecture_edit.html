@@ -8,15 +8,8 @@
     <title>Bootstrap Admin</title>
 
     <!-- Bootstrap -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-    <style type="text/css">
-        .required:after {
-            content: ' *';
-            color: #888;
-        }
-    </style>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="css/main.min.css" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,7 +31,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Bootstrap Admin</a>
+            <a class="navbar-brand" href="lectures.html">Bootstrap Admin</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -84,9 +77,9 @@
                     </ul>
                 </li>
             </ul>
-        </div><!-- /.navbar-collapse -->
+        </div><!-- .navbar-collapse -->
 
-    </div><!-- /.container-fluid -->
+    </div><!-- .container-fluid -->
 </nav>
 
 <div class="container">
@@ -124,7 +117,7 @@
                 <div class="form-group">
                     <label for="price">Price</label>
                     <div class="input-group">
-                        <input type="number" class="form-control" id="price" min="0"/>
+                        <input type="number" class="form-control text-right" id="price" min="0" value="2500"/>
                         <span class="input-group-addon">
                             CZK
                         </span>
@@ -141,7 +134,7 @@
                     </label>
                 </div>
                 <div class="form-group">
-                    <input type="submit" class="btn btn-primary" value="Save"/>
+                    <input type="submit" class="btn btn-primary btn-raised" value="Save"/>
                 </div>
             </form>
 
